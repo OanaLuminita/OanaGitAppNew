@@ -11,6 +11,6 @@ public class MyController {
 
 	@GetMapping
 	public @ResponseBody MyObject getMyObject() {
-		return new MyObject("Hello from git app in the new repo! 27.09.2020");
+		return new MyObject("Hello from git app in the new repo! 27.09.2020. Last try!!");
 	}
 }
