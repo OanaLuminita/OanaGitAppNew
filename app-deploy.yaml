@@ -5,7 +5,7 @@ metadata:
   name: oanagitappnew
   namespace: oana-luminitabrezae-unicreditro
 spec:
-  applicationImage: de.icr.io/unicreditromania-1592297368360/oanagitappnew
+  applicationImage: image-registry.openshift-image-registry.svc:5000/oana-luminitabrezae-unicreditro/oanagitappnew
   createKnativeService: false
   expose: true
   livenessProbe:
